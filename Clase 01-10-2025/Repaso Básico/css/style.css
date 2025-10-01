@@ -1,0 +1,40 @@
+/*
+
+Sintaxis CSS:
+
+Selector {
+    Propiedad:valor 
+}
+  
+. -> Clase
+# -> Id
+h2 -> Todas las etiquetas
+* -> Toda la página
+
+*/
+
+.caja1{
+    background-color: blue;
+    padding-bottom: 10%;
+    width: 50%;
+    float: left;
+}
+
+.caja2{
+    background-color: aquamarine;
+    padding-bottom: 10%;
+    width: 50%;
+    float: right;
+}
+
+*{
+    margin: 0;
+}
+
+@media screen and (max-width:600px) {
+    .caja1,.caja2{
+        float:none;
+        width: 100%;
+    }
+}
+
